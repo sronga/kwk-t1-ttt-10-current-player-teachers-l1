@@ -1,11 +1,10 @@
 def turn_count(board)
   counter = 0
   board.each do |turnnumber|
-    if turnnumber.length > 0
+    if turnnumber != " "
       counter += 1
     end
   end
-  puts counter
 end
 
 def current_player(board)
