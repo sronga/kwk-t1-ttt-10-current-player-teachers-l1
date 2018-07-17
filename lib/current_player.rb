@@ -4,6 +4,7 @@ def turn_count(board)
     if turnnumber.length > 0
       counter += 1
     end
+  end
 end
 
 def current_player(board)
